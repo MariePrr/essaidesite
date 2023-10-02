@@ -1,0 +1,68 @@
+h1{
+    color: #F90DD9;
+    font-size: 50px;
+    font-family: 'Comfortaa', cursive; }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+.lien-icone {
+    margin-left: 30px;
+  }
+
+ .bannière {
+    padding: 100px O;
+    width: 50%;
+    margin: auto; 
+ }
+
+ p {
+    padding: 25px;
+    margin: 50px;
+    background-color: #F6E9F4;
+ }
+
+ h1 {
+    font-family: 'Comfortaa', cursive;
+ }
+
+ .grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+  }
+
+  .grid-paysages img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+  .lien-conteneur-photo {
+    position: relative;
+  }
+  
+  .photo-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  
+  .lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+  }
